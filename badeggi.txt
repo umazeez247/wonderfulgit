@@ -1,0 +1,31 @@
+// Compilation of my Full name program that add up my names then displays them as one.
+import java.util.Scanner; // program uses class scanner
+
+public class Compilation {
+	// main method begins execution of java application
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.print("Enter first integer: "); // prompt
+	
+		int firstname = input.nextLine(); // read firstInteger from user
+
+		System.out.print("Enter second integer: "); // prompt
+		int secondNumber = input.nextLine(); // read secondName from user
+
+		String sum = firstname + " " + othername; // add numbers, then store full name in sum
+
+		System.out.printf("Full Name is %s%n" , sum); // display sum
+	} // end method main
+   } // end class FullName
+
+
+
+
+
+
+
+
+
+
+}
